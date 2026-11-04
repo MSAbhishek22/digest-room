@@ -1,0 +1,12 @@
+# Render free-tier config for the LOCAL HARNESS only.
+# NOT deployed. Deploying needs the user's own Render signup, and the
+# deploy stops at once if a card is asked (free-only rule).
+# This does NOT make the harness a Switch room, and a deployed harness
+# must never be submitted as the Switch demo.
+services:
+  - type: web
+    name: digest-room-harness
+    env: python
+    buildCommand: "true"
+    startCommand: "python3 -m digest_room.room_server"
+    plan: free

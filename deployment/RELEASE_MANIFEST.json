@@ -1,0 +1,19 @@
+{
+  "project": "Digest Room (Flip the Switch)",
+  "release_version": "pre-release-design-pack-2026-11-03",
+  "github_repository_url": "https://github.com/MSAbhishek22/digest-room (NOT CREATED YET - connector 403, browser task in progress)",
+  "production_branch": null,
+  "production_commit_sha": null,
+  "design_pack_commit_sha": "a6ea4cfdf5f93cb1b148fafa418d532ebb3f4b45",
+  "production_url": null,
+  "deployment_provider": null,
+  "deployment_timestamp_utc": null,
+  "deployment_timestamp_ist": null,
+  "backend_api_url": null,
+  "database_migration_version": null,
+  "smoke_test_result": null,
+  "note": "Top-tier local commit b3c9f41, 23/23 tests, live curl QA pass. Remote repo NOT created yet: GitHub connector create_repository returned 403, browser creation task running at github.com/new. Do NOT claim remote exists until verified.",
+  "local_commit_sha": "b3c9f413f97f2a803de85287c035f33627dbc305",
+  "local_commit_short": "b3c9f41",
+  "push_bundle": "~/workspace/hackathons/digest-room.bundle (verified, 51K, HEAD b3c9f41)"
+}
