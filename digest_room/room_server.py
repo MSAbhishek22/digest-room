@@ -251,4 +251,6 @@ def serve(port: int | None = None):
 
 
 if __name__ == "__main__":
-    serve(8000)
+    # No argument so $PORT (set by Render) wins, falling back to 8000 locally.
+    # Previously serve(8000) ignored $PORT, which would break Render health checks.
+    serve()
