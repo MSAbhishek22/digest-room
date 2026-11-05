@@ -12,7 +12,7 @@
 | QA | 23/23 tests PASS on Linux sandbox 2026-11-05 (re-verified: Ran 23 tests, OK) — logic + harness; real-room workflow verified live 3:53 PM |
 | Demo video | RECORDED from the real Switch room 2026-11-05 ~8:17 PM IST: one continuous take, 60.6 s, 1280×720, 30 fps, h264, 1.1 MB — file submission/flip-switch-demo.mp4; frames watched back (digest 5 s, thread 35 s, EOD summary 50 s/58 s). Honest warts: "Loading..." spinner ~20 s mid-take; thread shot shows the agent's reply footer, not the confirmation text itself (claim confirmed on screen by the EOD summary). |
 | Published video | PUBLIC on YouTube 2026-11-05: https://www.youtube.com/watch?v=c6ygxZTKrz0 (channel MS Abhishek; title verified on the watch page; duration 1:00 watch page / 1:01 Studio; description with repo link verified) |
-| Submission | REGISTERED 2026-11-04 ~16:25 IST: WeMakeDevs account created via GitHub sign-up (M S Abhishek, @MSABHISHEK22, msabhishekbdps@gmail.com, profile: M S / Abhishek, India, Student, Shobhit University, Meerut; DOB blank, email prefs unticked; age 18+ confirmed by user in chat), registration dialog answered Yes to the Keychron Keyboard giveaway, page shows "✓ REGISTERED" (count 7,109), dialog said "You're in. Here's 1 month of Wispr Flow free." (offer NOT taken, no confirmation number shown). LIMIT: registration dialog did NOT ask for team size, track, project name or repo, so Best Business Workflow / Digest Room / repo are NOT recorded against the entry yet — they go in the separate "Submit your project" step, not yet taken. Switch repo STARRED + verified same day. Discord join is user's tap, NOT confirmed. Deadline 7 Nov 2026 23:59 IST (safe 7 Nov 20:00 IST) |
+| Submission | REGISTERED 2026-11-04 ~16:25 IST: WeMakeDevs account created via GitHub sign-up (M S Abhishek, @MSABHISHEK22, msabhishekbdps@gmail.com, profile: M S / Abhishek, India, Student, Shobhit University, Meerut; DOB blank, email prefs unticked; age 18+ confirmed by user in chat), registration dialog answered Yes to the Keychron Keyboard giveaway, page shows "✓ REGISTERED" (count 7,109), dialog said "You're in. Here's 1 month of Wispr Flow free." (offer NOT taken, no confirmation number shown). Switch repo STARRED + verified same day. SUBMITTED 2026-11-05 20:38 IST via the "Submit your project" step: page shows "SUBMITTED" — "Digest Room" — "Solo entry · Flip the Switch Hackathon", filed by M S Abhishek @msabhishek22 on 5 Nov 2026, 20:38; no confirmation number or submission ID shown. Entry as recorded: Track Best Business Workflow, Digest Room, https://github.com/MSAbhishek22/digest-room, https://www.youtube.com/watch?v=c6ygxZTKrz0, solo. Discord join is user's tap, NOT confirmed. Deadline 7 Nov 2026 23:59 IST (safe 7 Nov 20:00 IST) — submitted two days early. |
 
 ## Status summary
 - LIVE_DEPLOYMENT: IN_PROGRESS (real Switch room live in Codespace, not always-on; Render harness deploy still not live)
@@ -23,8 +23,8 @@
 - RESPONSIVE_AND_ACCESSIBLE: PARTIAL (harness UI is single-column on mobile; real room untested)
 - DEMO_VIDEO_RECORDED_FROM_LIVE: PASS (60.6 s one-take recording from the real room, 2026-11-05 ~8:17 PM IST, frames watched back)
 - VIDEO_PUBLISHED_AND_URL_VERIFIED: PASS (Public, https://www.youtube.com/watch?v=c6ygxZTKrz0, link opened and verified 2026-11-05 ~20:22 IST)
-- HACKATHON_RULE_COMPLIANCE: IN_PROGRESS (build inside Nov 4-7 window; registration DONE 2026-11-04, project submission pending)
-- OVERALL_RELEASE: IN_PROGRESS (loop complete in real room; video recorded + published Public with verified link; only the "Submit your project" step outstanding)
+- HACKATHON_RULE_COMPLIANCE: PASS (built inside Nov 4-7 window; registration DONE 2026-11-04; project SUBMITTED 2026-11-05 20:38 IST, before the deadline)
+- OVERALL_RELEASE: SUBMITTED (hackathon entry complete: room live + loop proven, video recorded + published Public with verified link, repo at a089a23, submission filed 2026-11-05 20:38 IST). Rulebook note: Gate C (3D experience exception) is still unapproved and the room is Codespace-hosted, not always-on — the entry itself is complete and submitted.
 ## Gates
 - A Research/design: PASS (5/5 references; 3D exception still unapproved)
 - B Functional product: PASS — real Switch room + managed agent live, workflow loop completed 2026-11-05 3:53 PM
@@ -32,4 +32,4 @@
 - D QA: PASS (23/23 logic/harness tests PASS; real-room workflow verified live)
 - E GitHub/deployment: PARTIAL (public repo at 1a4cab2; doc updates pending push; Render harness not live)
 - F Demo video: PASS (recorded from live room, 60.6 s; upload + link verification pending)
-- G Final handoff: BLOCKED
+- G Final handoff: PASS (submitted 2026-11-05 20:38 IST; entry verified on the submit page)

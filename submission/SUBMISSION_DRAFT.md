@@ -2,7 +2,7 @@
 
 Track: Best Business Workflow — Flip the Switch, WeMakeDevs x DevTools Academy x Switch
 Team: Solo
-Status 2026-11-05: DRAFT ONLY. Repo verified and registration DONE (see checklist); real Switch room live and workflow loop COMPLETE in it 2026-11-05 3:53 PM IST; demo video recorded from the live room and PUBLISHED Public at https://www.youtube.com/watch?v=c6ygxZTKrz0 (link opened + verified 2026-11-05 ~20:22 IST); project submission still outstanding — do NOT send yet.
+Status 2026-11-05: SUBMITTED 2026-11-05 20:38 IST (see "Submission" below). Repo verified and registration DONE (see checklist); real Switch room live and workflow loop COMPLETE in it 2026-11-05 3:53 PM IST; demo video recorded from the live room and PUBLISHED Public at https://www.youtube.com/watch?v=c6ygxZTKrz0 (link opened + verified 2026-11-05 ~20:22 IST).
 
 ## Title
 Digest Room — the morning triage your team already does, inside the chat room
@@ -35,12 +35,12 @@ expired summary — humans stay in charge of every register, submit, and pay tap
 ## Pre-send checklist (all must be true)
 - [x] Registered on the official page (2026-11-04 ~16:25 IST: page shows "✓ REGISTERED", count 7,109; Keychron Keyboard giveaway entered = Yes) + repo starred (verified 2026-11-04)
 - [ ] Discord joined (user's tap, link https://discord.gg/E2rWw2Yhsm — NOT confirmed)
-- [ ] Track (Best Business Workflow), project name (Digest Room) and repo entered — these were NOT asked in the registration dialog; they go in the separate "Submit your project" step, not yet taken
+- [x] Track (Best Business Workflow), project name (Digest Room) and repo entered — submitted 2026-11-05 20:38 IST via the "Submit your project" step; page shows "SUBMITTED" — "Digest Room" — "Solo entry · Flip the Switch Hackathon", filed by M S Abhishek @msabhishek22 on 5 Nov 2026, 20:38; no confirmation number or submission ID shown
 - [x] Real Switch room running (Codespace "opulent bassoon"), workflow loop proven in it 2026-11-05 3:53 PM IST (digest → ✅ reaction → in-thread confirmation → EOD summary)
-- [ ] Public repo pushed, remote commit verified against local
+- [x] Public repo pushed, remote commit verified against local (remote head a089a23, verified 2026-11-05 ~20:22 IST)
 - [ ] README shows Switch centrality (it does, in the table above)
 - [x] Demo video recorded from the real room, uploaded, link opened and watched back (Public https://www.youtube.com/watch?v=c6ygxZTKrz0, verified 2026-11-05 ~20:22 IST)
-- [ ] Submission form sent before 7 Nov 2026, 23:59 IST (safe: 7 Nov 20:00 IST)
+- [x] Submission form sent before 7 Nov 2026, 23:59 IST (safe: 7 Nov 20:00 IST) — SENT 2026-11-05 20:38 IST, two days early
 
 ## Side tracks (free, optional, same project)
 - Best Blog (AirPods 5): see submission/BLOG_DRAFT.md — publish only
