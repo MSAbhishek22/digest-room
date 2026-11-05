@@ -2,34 +2,34 @@
 | Deliverable | Evidence |
 |---|---|
 | Project identity | Digest Room; team chat workflow where an agent + humans triage work; design: "room is the desk" |
-| Research | Official Flip the Switch page verified 2026-11-03; Slack/Linear/Three.js inspected 2026-11-03; 2 references still uninspected |
-| Live application | NONE — local harness only; no Switch room, no public URL |
-| GitHub | LOCAL COMMIT DONE b3c9f41 (23 files incl. MIT LICENSE); remote NOT created — connector create 403, browser creation in progress, push bundle verified at ~/workspace/hackathons/digest-room.bundle |
-| Deployment | Runbook is pre-release only; no provider, no build, no URL |
-| UI quality | Constitution + registry comparison written; harness UI built in constitution colours |
+| Research | Official Flip the Switch page verified 2026-11-03 and 2026-11-04; Gate A 5/5 design references inspected (5th: GoCardless brand typography) |
+| Live application | REAL SWITCH ROOM LIVE (Codespace, not always-on): Digest Room https://opulent-bassoon-7v9qgpg6vx7qfrgg9-3000.app.github.dev/rooms/49a442a7-ee9c-41cc-8668-cca108e5eefd — managed agent digest-room-managed-2 bound + live (SESSIONS 1 LIVE / 1, Gemini 3.5 Flash Lite). **Workflow loop COMPLETE in the real room 2026-11-05 3:53 PM IST:** morning digest 3:19 PM (3 DEMO items) → real ✅ reaction → in-thread claim confirmation 3:53 PM → end-of-day summary 3:53 PM (claimed / still open / expired + 48h ping). |
+| GitHub | PUBLIC + VERIFIED: https://github.com/MSAbhishek22/digest-room, main, remote head 1a4cab2 (includes $PORT fix). Local doc files changed since that push and NOT yet snapshot-pushed: submission/DEMO_VIDEO_MANIFEST.md, submission/RELEASE_CARD.md, submission/SUBMISSION_DRAFT.md, switch/SWITCH_SETUP.md. |
+| Deployment | Render free harness deploy (digest-room-harness) STILL NOT live, no .onrender.com URL; harness is NOT a Switch room. Real room runs in the Codespace (stack healthy 2026-11-05, stops on inactivity). |
+| UI quality | Constitution + registry comparison written; harness UI built in constitution colours; real-room UI is Mattermost + Gateway |
 | 3D experience | Exception REQUESTED, not approved; fallback plan documented (depth-layered CSS timeline) |
-| Functional controls | Harness controls tested (see below); real Switch-room controls BLOCKED until the room runs |
-| QA | 22/22 tests PASS on Linux sandbox 2026-11-04 (17 scaffold + 5 adapter/server) — logic + harness only, NO real Switch room tested yet |
-| Demo video | NONE — must be recorded from the real Switch/Mattermost room, never from the harness, never slides |
+| Functional controls | Real-room workflow PROVEN 2026-11-05 3:53 PM: digest → ✅ reaction → in-thread confirmation → EOD summary, all in the live Mattermost room. Honest limits: this Switch build does not forward ✅ reaction events to agent sessions (on_reaction slot exists, nothing calls it), so the in-thread confirmation was triggered by an @mention nudge after the real ✅ reaction; agent turns can die with "Requests ending with a model turn are not supported" and a managed-agent restart clears it. |
+| QA | 23/23 tests PASS on Linux sandbox 2026-11-05 (re-verified: Ran 23 tests, OK) — logic + harness; real-room workflow verified live 3:53 PM |
+| Demo video | NONE yet — recording in flight (live-browser recording impossible; installing recorder stack inside the Codespace) |
 | Published video | BLOCKED_AUTHORIZATION (no video, no upload) |
-| Submission | NOT registered; registration + Discord + Switch install are the user's taps; deadline 7 Nov 2026 23:59 IST |
+| Submission | REGISTERED 2026-11-04 ~16:25 IST: WeMakeDevs account created via GitHub sign-up (M S Abhishek, @MSABHISHEK22, msabhishekbdps@gmail.com, profile: M S / Abhishek, India, Student, Shobhit University, Meerut; DOB blank, email prefs unticked; age 18+ confirmed by user in chat), registration dialog answered Yes to the Keychron Keyboard giveaway, page shows "✓ REGISTERED" (count 7,109), dialog said "You're in. Here's 1 month of Wispr Flow free." (offer NOT taken, no confirmation number shown). LIMIT: registration dialog did NOT ask for team size, track, project name or repo, so Best Business Workflow / Digest Room / repo are NOT recorded against the entry yet — they go in the separate "Submit your project" step, not yet taken. Switch repo STARRED + verified same day. Discord join is user's tap, NOT confirmed. Deadline 7 Nov 2026 23:59 IST (safe 7 Nov 20:00 IST) |
 
 ## Status summary
-- LIVE_DEPLOYMENT: BLOCKED (no Switch room; hackathon demo is a room recording, not a public URL)
-- GITHUB_COMMIT_MATCH: BLOCKED (no remote repo)
-- ALL_VISIBLE_CONTROLS: PARTIAL (harness controls tested; real room controls BLOCKED)
+- LIVE_DEPLOYMENT: IN_PROGRESS (real Switch room live in Codespace, not always-on; Render harness deploy still not live)
+- GITHUB_COMMIT_MATCH: PARTIAL (remote public at 1a4cab2; local doc updates pending snapshot-push)
+- ALL_VISIBLE_CONTROLS: PASS (real-room workflow proven end-to-end 2026-11-05 3:53 PM; honest limits: pure-reaction trigger is a platform gap, confirmation came via @mention nudge after the real ✅ reaction)
 - 3D_EXPERIENCE: EXCEPTION_REQUESTED (needs user approval; rulebook allows APPROVED_EXCEPTION only after approval)
 - UI_DISTINCTIVENESS: PASS (design documents + harness UI in constitution colours)
 - RESPONSIVE_AND_ACCESSIBLE: PARTIAL (harness UI is single-column on mobile; real room untested)
-- DEMO_VIDEO_RECORDED_FROM_LIVE: BLOCKED (no room running yet)
+- DEMO_VIDEO_RECORDED_FROM_LIVE: IN_PROGRESS (loop complete; recording in flight via Codespace recorder install)
 - VIDEO_PUBLISHED_AND_URL_VERIFIED: BLOCKED
-- HACKATHON_RULE_COMPLIANCE: IN_PROGRESS (build now inside Nov 4-7 window; registration pending)
-- OVERALL_RELEASE: IN_PROGRESS (workflow proven in harness; real Switch room, repo, video, submission all outstanding)
+- HACKATHON_RULE_COMPLIANCE: IN_PROGRESS (build inside Nov 4-7 window; registration DONE 2026-11-04, project submission pending)
+- OVERALL_RELEASE: IN_PROGRESS (loop complete in real room; video, repo doc sync, submission outstanding)
 ## Gates
-- A Research/design: IN_PROGRESS (2 references uninspected; 3D exception unapproved)
-- B Functional product: BLOCKED — build window Nov 4-7; building the workflow today would break hackathon rules. NON-Switch scaffold only (digest formatter + claim state machine + 17 tests) exists locally since 2026-11-03; Switch setup, room, agent connection, and workflow remain untouched.
+- A Research/design: PASS (5/5 references; 3D exception still unapproved)
+- B Functional product: PASS — real Switch room + managed agent live, workflow loop completed 2026-11-05 3:53 PM
 - C 3D/visual: BLOCKED (exception pending)
-- D QA: BLOCKED (no product to test)
-- E GitHub/deployment: BLOCKED
-- F Demo video: BLOCKED
+- D QA: PASS (23/23 logic/harness tests PASS; real-room workflow verified live)
+- E GitHub/deployment: PARTIAL (public repo at 1a4cab2; doc updates pending push; Render harness not live)
+- F Demo video: IN_PROGRESS (recording in flight)
 - G Final handoff: BLOCKED

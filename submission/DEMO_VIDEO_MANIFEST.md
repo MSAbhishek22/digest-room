@@ -8,19 +8,33 @@ video are banned for the same reason.
 
 ## Target
 - Length: 60–90 seconds, one continuous take
-- Source: the real Switch + Mattermost room on the user's laptop
+- Source: the real Switch + Mattermost room running in the GitHub Codespace ("opulent bassoon"), NOT the user's laptop, NOT the local harness
 - Audio: none required; readable on-screen text carries it
 - Secrets: none visible — no tokens, keys, or personal inboxes
 
 ## Shot list (in order, no cuts that hide a step)
-1. (0–15s) Room opens. Agent posts the morning digest. Deadline,
-   prize, fit note readable.
-2. (15–35s) Teammate reacts ✅ on one item. Agent confirms in-thread.
-   Task card appears in the claimed-tasks rail.
-3. (35–50s) Depth pipeline moves: Open count drops, Claimed rises.
-4. (50–75s) Agent posts the end-of-day summary: claimed / still open /
-   expired, plus a 48h ping.
-5. (75–90s) One line on screen: "Switch is the room. No room, no workflow."
+The loop already ran live 2026-11-05 (digest 3:19 PM, claim confirmation 3:53 PM, EOD summary 3:53 PM), so the video is a one-take walkthrough of the completed live run in the real room — no re-run, no new posts:
+1. (0–20s) Room opens. Morning digest readable: three DEMO items, deadline, prize, fit note, plus the ✅ reaction on it.
+2. (20–45s) Thread on the digest opens. In-thread claim confirmation readable, with timestamp.
+3. (45–70s) Back to channel. End-of-day summary readable: claimed / still open / expired, plus the 48h ping.
+4. (70–90s) One line on screen: "Switch is the room. No room, no workflow."
+The harness depth-pipeline / claimed-tasks-rail shots from the original list do NOT exist in Mattermost and are not filmed or implied.
+
+## Recording method (2026-11-04 update, revised 2026-11-05)
+Video is made by the assistant with a real screen recording
+(Xvfb + Chromium + ffmpeg in the sandbox, tested pipeline), NOT by
+assembling text cards / screenshots — the user's video rule bans
+that feel for submission. The recording target is the real Switch
+room only. A harness recording, if made as a rehearsal, is labelled
+LOCAL DRAFT ONLY and is never submitted as a Switch demo.
+2026-11-05 16:13 IST correction: the live browser cannot screen-record
+at all (still screenshots only), and the Codespace had no recorder or
+display — so the recording attempt now installs the stack INSIDE the
+Codespace (Xvfb + ffmpeg + real browser) and records the live room
+there. If that fails, the fallback is the user recording their own
+screen from the live room link. The video is a walkthrough of the
+completed live run (digest 3:19 PM, claim confirmation 3:53 PM, EOD
+summary 3:53 PM, 5 Nov 2026) in one continuous take.
 
 ## Verification (fill only after recording)
 - production_url / room: NOT YET — real room not running
