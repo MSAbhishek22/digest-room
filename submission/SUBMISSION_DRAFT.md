@@ -2,7 +2,7 @@
 
 Track: Best Business Workflow — Flip the Switch, WeMakeDevs x DevTools Academy x Switch
 Team: Solo
-Status 2026-11-05: DRAFT ONLY. Repo verified and registration DONE (see checklist); real Switch room live and workflow loop COMPLETE in it 2026-11-05 3:53 PM IST; demo video recording in flight; project submission still outstanding — do NOT send yet.
+Status 2026-11-05: DRAFT ONLY. Repo verified and registration DONE (see checklist); real Switch room live and workflow loop COMPLETE in it 2026-11-05 3:53 PM IST; demo video recorded from the live room and PUBLISHED Public at https://www.youtube.com/watch?v=c6ygxZTKrz0 (link opened + verified 2026-11-05 ~20:22 IST); project submission still outstanding — do NOT send yet.
 
 ## Title
 Digest Room — the morning triage your team already does, inside the chat room
@@ -13,8 +13,8 @@ work with a ✅ reaction, and the day closes with a claimed / open /
 expired summary — humans stay in charge of every register, submit, and pay tap.
 
 ## What to paste (after the video + repo exist)
-- Repo: https://github.com/MSAbhishek22/digest-room (verified public, main, remote head 1a4cab2, 2026-11-05)
-- Demo video: <VIDEO URL — recorded ONLY from the real Switch/Mattermost room>
+- Repo: https://github.com/MSAbhishek22/digest-room (verified public, main, remote head 2e7e1e9, 2026-11-05)
+- Demo video: https://www.youtube.com/watch?v=c6ygxZTKrz0 (Public, recorded ONLY from the real Switch/Mattermost room, 60.6 s)
 - How Switch is used: Switch is the room itself. The agent posts the
   digest in the room, a ✅ reaction in the room is the claim, the
   agent confirms in-thread in the room, and the rail shows claimed
@@ -39,7 +39,7 @@ expired summary — humans stay in charge of every register, submit, and pay tap
 - [x] Real Switch room running (Codespace "opulent bassoon"), workflow loop proven in it 2026-11-05 3:53 PM IST (digest → ✅ reaction → in-thread confirmation → EOD summary)
 - [ ] Public repo pushed, remote commit verified against local
 - [ ] README shows Switch centrality (it does, in the table above)
-- [ ] Demo video recorded from the real room, uploaded, link opened and watched back
+- [x] Demo video recorded from the real room, uploaded, link opened and watched back (Public https://www.youtube.com/watch?v=c6ygxZTKrz0, verified 2026-11-05 ~20:22 IST)
 - [ ] Submission form sent before 7 Nov 2026, 23:59 IST (safe: 7 Nov 20:00 IST)
 
 ## Side tracks (free, optional, same project)

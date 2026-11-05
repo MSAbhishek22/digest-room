@@ -37,10 +37,11 @@ completed live run (digest 3:19 PM, claim confirmation 3:53 PM, EOD
 summary 3:53 PM, 5 Nov 2026) in one continuous take.
 
 ## Verification (fill only after recording)
-- production_url / room: NOT YET — real room not running
-- video_url: NONE
-- recorded_from_live_room: NO
-- watched_back_link_opens: NO
-- duration_seconds: NONE
+- production_url / room: real Switch room in Codespace "opulent bassoon", Mattermost Digest Room channel (localhost:8065/switch/channels/digest-room), stack recovered 2026-11-05 ~8:00 PM IST after Docker RWLayer corruption (3 containers removed, volumes kept, all 4 services healthy 200)
+- video_url: https://www.youtube.com/watch?v=c6ygxZTKrz0 (Public, channel MS Abhishek, published 2026-11-05; title "Digest Room — Flip the Switch (Best Business Workflow)")
+- recorded_from_live_room: YES — one continuous ffmpeg x11grab take, display :99, 1280×720, 30 fps, h264; file submission/flip-switch-demo.mp4 (1,188,288 bytes); ffprobe duration 60.6 s (60–90 s required); nothing new posted in the room, nothing uploaded
+- watched_back_link_opens: YES — link opened 2026-11-05 ~20:22 IST, page live with the exact title and description (repo link included); duration shown 1:00 on the watch page, 1:01 in Studio, consistent with the 60.6 s file
+- duration_seconds: 60.6
+- Honest warts (do not hide): ~20 s shows a "Loading..." spinner mid-take (channel reloading); the thread shot shows the agent's reply footer, not the confirmation text itself — the claim is confirmed on screen by the EOD summary (Claimed: DEMO — Approve vendor invoice batch). The 3:42 PM turn-failure message is visible in the channel history, as it was in the room.
 
 Do not fill any of these fields in advance.
